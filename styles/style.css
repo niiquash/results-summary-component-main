@@ -28,7 +28,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 32px 58px;
-  background: linear-gradient(180deg, #7755ff, #2f2ce9);
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 35px;
   box-shadow: 0 30px 60px rgba(61, 108, 236, 0.15);
@@ -62,7 +62,11 @@ main {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: linear-gradient(0deg, hsl(256deg 71% 46%), hsl(241deg 72% 46%));
+  background: linear-gradient(
+    0deg,
+    hsla(241, 72%, 46%, 0),
+    hsla(256, 72%, 46%, 1)
+  );
   margin-bottom: 24px;
 }
 
@@ -219,7 +223,7 @@ main {
 }
 
 .summary-section-button-container button:hover {
-  background: linear-gradient(180deg, #7755ff, #2f2ce9);
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 @media (min-width: 768px) {
