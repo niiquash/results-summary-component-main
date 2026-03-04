@@ -31,6 +31,7 @@ main {
   background: linear-gradient(180deg, #7755ff, #2f2ce9);
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 35px;
+  box-shadow: 0 30px 60px rgba(61, 108, 236, 0.15);
 }
 
 .result-section {
@@ -122,6 +123,7 @@ main {
 
 .summary-section-category-container {
   padding: 18px 16px;
+  border-radius: 12px;
 }
 
 .summary-section-category {
@@ -182,6 +184,21 @@ main {
   color: #1125d6;
 }
 
+.top-number {
+  font-size: 16px;
+  font-weight: 700;
+  color: #303b59;
+  margin-right: 8px;
+}
+
+.bottom-number {
+  font-size: 16px;
+  font-weight: 700;
+  color: #303b59;
+  opacity: 50%;
+}
+
+/* Categories button */
 .summary-section-button-container button {
   width: 100%;
   color: white;
