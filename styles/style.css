@@ -13,9 +13,16 @@ body {
   font-family: "Hanken Grotesk";
 }
 
-/* main {
-} */
+/* Main Content */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
 
+/* Result Section */
 .result-section-container {
   display: flex;
   align-items: center;
@@ -86,4 +93,106 @@ body {
   font-weight: 500;
   line-height: 130%;
   color: #cac9ff;
+}
+
+/* Summary Section */
+.summary-section-container {
+  margin: 0 auto;
+}
+
+.summary-section {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.summary-section-heading h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 130%;
+  color: #303b59;
+}
+
+.summary-section-categories-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.summary-section-category-container {
+  padding: 18px 16px;
+}
+
+.summary-section-category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-section-label-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.summary-section-label-icon {
+  margin-right: 16px;
+  width: 20px;
+  height: 20px;
+}
+
+.summary-section-label-icon img {
+  width: 100%;
+}
+
+.summary-section-label-text p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+/* Categories background and text colors */
+.summary-section-category-container.reaction {
+  background-color: #fff6f6;
+}
+
+.summary-section-category-container.memory {
+  background-color: #fffbf4;
+}
+
+.summary-section-category-container.verbal {
+  background-color: #f2fcf9;
+}
+
+.summary-section-category-container.visual {
+  background-color: #f3f4fd;
+}
+
+.reaction-text {
+  color: #f55;
+}
+.memory-text {
+  color: #ffb21e;
+}
+.verbal-text {
+  color: #00bb8f;
+}
+.visual-text {
+  color: #1125d6;
+}
+
+.summary-section-button-container button {
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 28px;
+  background-color: #303b59;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  font-weight: 700;
+  padding: 17px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
