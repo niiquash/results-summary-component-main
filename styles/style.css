@@ -75,6 +75,7 @@ main {
 .result-section-score-bottom p {
   font-size: 16px;
   font-weight: bold;
+  line-height: 130%;
   color: #cac9ff;
 }
 
@@ -98,7 +99,8 @@ main {
 
 /* Summary Section */
 .summary-section-container {
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  padding-bottom: 30px;
 }
 
 .summary-section {
@@ -217,4 +219,102 @@ main {
 
 .summary-section-button-container button:hover {
   background: linear-gradient(180deg, #7755ff, #2f2ce9);
+}
+
+@media (min-width: 768px) {
+  /* Result Section */
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main {
+    flex-direction: row;
+    gap: 0;
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 0 30px 60px rgba(61, 108, 236, 0.15);
+  }
+
+  .result-section-container {
+    padding: 45px 69px;
+    /* border-top-left-radius: 32px; */
+    border-top-right-radius: 32px;
+    /* border-bottom-left-radius: 32px; */
+    border-bottom-right-radius: 32px;
+  }
+
+  .result-section {
+    width: 200px;
+  }
+
+  .result-section-heading-container {
+    margin-bottom: 32px;
+  }
+
+  .result-section-heading-container p {
+    font-size: 24px;
+  }
+
+  .result-section-score-container {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 32px;
+  }
+
+  .result-section-score-top h1 {
+    font-size: 72px;
+  }
+
+  .result-section-score-bottom p {
+    font-size: 18px;
+  }
+
+  .result-section-comment-heading {
+    margin-bottom: 16px;
+  }
+
+  .result-section-comment-heading h2 {
+    font-size: 32px;
+  }
+
+  .result-section-paragraph p {
+    font-size: 18px;
+  }
+
+  /* Summary Section */
+  .summary-section-container {
+    padding: 45px 40px;
+  }
+
+  .summary-section {
+    width: 269px;
+    gap: 32px;
+  }
+
+  .summary-section-heading h3 {
+    font-size: 24px;
+  }
+
+  .summary-section-category-container {
+    padding: 17px;
+  }
+
+  .summary-section-label-text p {
+    font-size: 18px;
+  }
+
+  .top-number,
+  .bottom-number {
+    font-size: 18px;
+  }
+
+  .summary-section-button-container button {
+    padding: 17px 97px;
+  }
+}
+
+@media (min-width: 1440px) {
 }
