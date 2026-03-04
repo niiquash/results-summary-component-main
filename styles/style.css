@@ -12,3 +12,78 @@
 body {
   font-family: "Hanken Grotesk";
 }
+
+/* main {
+} */
+
+.result-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 58px;
+  background: linear-gradient(180deg, #7755ff, #2f2ce9);
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+
+.result-section {
+  text-align: center;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-section-heading-container {
+  margin-bottom: 24px;
+}
+
+.result-section-heading-container p {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 130%;
+  color: #cac9ff;
+}
+
+.result-section-score-container {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(0deg, hsl(256deg 71% 46%), hsl(241deg 72% 46%));
+  margin-bottom: 24px;
+}
+
+.result-section-score-top h1 {
+  font-size: 56px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.result-section-score-bottom p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #cac9ff;
+}
+
+.result-section-comment-heading {
+  margin-bottom: 8px;
+}
+
+.result-section-comment-heading h2 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 130%;
+  color: white;
+}
+
+.result-section-paragraph p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  color: #cac9ff;
+}
